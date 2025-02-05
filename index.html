@@ -7,31 +7,75 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body>
-    <header class="max-w-[1440px]">
-      <div
-        class="h-[50px] bg-linear_gradiant flex px-2 justify-between items-center"
-      >
-        <figure>
-          <img
-            src="./assets/nav-and-hero-svg/nav-top-discount.svg"
-            class="w-[80%] h-auto"
-          />
-        </figure>
-        <p class="text-xs text-white">
+    <!-- Discount for cutomer section start here -->
+    <div
+      class="pt-[7px] pb-4 bg-linear_gradiant flex px-2 justify-around md:justify-center md:gap-[10px] items-center w-full"
+    >
+      <figure>
+        <img
+          src="./assets/nav-and-hero-svg/nav-top-discount.svg"
+          class="w-[80%] h-auto md:w-full md:h-auto"
+        />
+      </figure>
+      <div class="flex items-center gap-3 md:gap-5">
+        <p class="text-xs text-white md:font-semibold md:font-fontSecondery">
           30% discount for all customers in all services
         </p>
         <button
           class="text-xs px-2 py-1 rounded-lg bg-navTop_btnGradiant text-white"
         >
-          Grap Now
+          GRAB NOW
         </button>
       </div>
-      <!-- nav start here -->
-      <div class="flex justify-center">
-        <nav></nav>
-      </div>
+    </div>
+    <!-- Discount for cutomer section end here -->
 
-      <!-- nav end here -->
+    <!-- header START here -->
+    <header class="max-w-[1440px] mx-auto">
+      <div
+        class="flex justify-center flex-col bg-heroSecondlinearGradient bg-white relative"
+      >
+        <!-- nav start here -->
+        <nav class="w-full py-3 px-2 md:px-6 lg:px-[120px] lg:py-[23px]">
+          <div class="flex justify-between">
+            <figure>
+              <a href="#"
+                ><img
+                  src="assets/nav-and-hero-svg/digicampo.svg"
+                  class="w-[80%] h-auto lg:w-full lg:h-full"
+              /></a>
+            </figure>
+            <div class="flex items-center gap-5 md:gap-9">
+              <button
+                class="invisible md:visible md:px-5 md:py-[7px] md:border md:border-btnBordercolor md:rounded-[10px] font-medium font-fontSecondery text-navBtntextColor"
+              >
+                Hire Us
+              </button>
+              <figure>
+                <a href="#"
+                  ><img
+                    src="assets/nav-and-hero-svg/digicampo-bar-icon.svg"
+                    class="w-[80%] h-auto lg:w-full lg:h-full"
+                /></a>
+              </figure>
+            </div>
+          </div>
+          <hr class="mt-[22px]" />
+        </nav>
+        <!-- nav end here -->
+        <h1
+          class="font-semibold text-center font-fontSecondery mx-auto text-slate-900 text-[85px] max-w-[700px]"
+        >
+          We make
+          <span
+            class="before:block before:absolute before:-inset-y-0 before:inset-x-1 before:-skew-y-3 before:bg-[#FFC310] before:rounded-3xl relative inline-block"
+          >
+            <span class="relative text-white px-6 text-[85px]">creative</span>
+          </span>
+          thinks every day
+        </h1>
+      </div>
     </header>
+    <!-- header END here -->
   </body>
 </html>
