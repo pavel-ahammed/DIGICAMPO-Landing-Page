@@ -12,6 +12,9 @@ module.exports = {
           "linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%)",
         heroSecondlinearGradient:
           "linear-gradient(90deg, rgba(231,234,253,1) 0%, rgba(235,233,253,1) 100%)",
+        heroBackgroundimage: "url('/assets/nav-and-hero-svg/hero-bg.svg')",
+        consultaion:
+          "url('/assets/nav-and-hero-svg/consultaion-section-bg.svg')",
       },
       fontFamily: {
         fontPrimary: ["Inter", "serif"],
