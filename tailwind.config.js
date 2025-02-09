@@ -15,6 +15,7 @@ module.exports = {
         heroBackgroundimage: "url('/assets/nav-and-hero-svg/hero-bg.svg')",
         consultaion:
           "url('/assets/nav-and-hero-svg/consultaion-section-bg.svg')",
+        connectUs: "url('assets/nav-and-hero-svg/connect-us-bg.svg')",
       },
       fontFamily: {
         fontPrimary: ["Inter", "serif"],
