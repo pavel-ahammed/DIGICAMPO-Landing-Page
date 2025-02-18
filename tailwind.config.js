@@ -40,6 +40,9 @@ module.exports = {
       boxShadow: {
         stepsShadow: "0px 35px 50px 0px rgba(0,159,98,0.05)",
       },
+      letterSpacing: {
+        uiUxourWorkingsectionLspacing: "-1px",
+      },
     },
   },
   plugins: [],
