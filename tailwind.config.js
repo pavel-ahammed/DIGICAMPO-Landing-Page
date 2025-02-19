@@ -25,6 +25,7 @@ module.exports = {
           "url('/assets/lets-talk-section-imge/next-step-section-graph.svg')",
         nextStepsectionline:
           "url('/assets/lets-talk-section-imge/next-step-section.svg')",
+        porfolioHerobg: "url('/assets/Portfolio-images/portfolio-hero-bg.svg')",
       },
       fontFamily: {
         fontPrimary: ["Inter", "serif"],
