@@ -32,6 +32,7 @@ module.exports = {
         fontPrimary: ["Inter", "serif"],
         fontSecondery: ["Lexend Deca", "serif"],
         fontManrope: ["Manrope", "serif"],
+        fontsen: ["Sen", "serif"],
       },
       borderColor: {
         btnBordercolor: "#7755FF",
@@ -41,7 +42,9 @@ module.exports = {
       },
       boxShadow: {
         stepsShadow: "0px 35px 50px 0px rgba(0,159,98,0.05)",
+        ourplatformSectionshadow: " 0px 0px 20px 0px rgba(248, 248, 248, 1)",
       },
+
       letterSpacing: {
         uiUxourWorkingsectionLspacing: "-1px",
       },
