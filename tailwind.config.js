@@ -27,6 +27,9 @@ module.exports = {
           "url('/assets/lets-talk-section-imge/next-step-section.svg')",
         porfolioHerobg: "url('/assets/Portfolio-images/portfolio-hero-bg.svg')",
         titleHerobg: "url('/assets/title-images/title-hero-bg.svg')",
+        blogFramebgOne: "url('/assets/blog-images/blog-frame-one.svg')",
+        blogLineargrdient:
+          " linear-gradient(90deg, rgba(0,0,0,0.14889705882352944) 0%, rgba(0,0,0,0.7) 100%)",
       },
       fontFamily: {
         fontPrimary: ["Inter", "serif"],
@@ -43,6 +46,8 @@ module.exports = {
       boxShadow: {
         stepsShadow: "0px 35px 50px 0px rgba(0,159,98,0.05)",
         ourplatformSectionshadow: " 0px 0px 20px 0px rgba(248, 248, 248, 1)",
+        blogSearchshadow: "  0px 12px 24px -4px rgba(145, 158, 171, 1)",
+        PopularblogSectionshadow: "  0px 10px 60px 0px rgba(0, 0, 0, 0.5)",
       },
 
       letterSpacing: {
