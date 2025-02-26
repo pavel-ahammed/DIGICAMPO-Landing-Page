@@ -36,6 +36,8 @@ module.exports = {
         fontSecondery: ["Lexend Deca", "serif"],
         fontManrope: ["Manrope", "serif"],
         fontsen: ["Sen", "serif"],
+        fontWorksans: ["Work Sans", "serif"],
+        fontPlusjakartaSans: ["Plus Jakarta Sans", "serif"],
       },
       borderColor: {
         btnBordercolor: "#7755FF",

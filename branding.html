@@ -76,42 +76,46 @@
 
       <!-- hero section start here -->
       <section
-        class="bg-top pt-[50px] flex flex-col gap-[30px] items-center max-w-[1200px] mx-auto"
+        class="bg-top pt-[50px] flex flex-col gap-[30px] items-center max-w-[1200px] mx-auto px-3 md:px-4 xl:px-0"
       >
         <div class="flex flex-col max-w-[1200px] gap-4 mx-auto">
           <p class="text-[12px] font-bold font-fontSecondery text-[#232323]">
             Branding
           </p>
           <h1
-            class="mt-4 font-bold text-4xl md:text-[50px] font-fontPrimary text-[#232323] leading-[1.26em]"
+            class="mt-4 font-bold text-[22px] md:text-2xl lg:text-4xl xl:text-[50px] font-fontPrimary text-[#232323] leading-[40px] md:leading-[40px] lg:leading-[56px] xl:leading-[72px]"
           >
             How Many Colors for an Effective Brand? Top 7 Brands & Their Color
             Secrets
           </h1>
         </div>
         <div
-          class="pt-[13px] pb-[8px] w-full border-t border-b flex items-center justify-between"
+          class="pt-[13px] pb-[8px] w-full border-t border-b flex flex-col md:flex-row gap-5 md:gap-0 items-center justify-between"
         >
           <div class="flex items-center gap-5">
             <div class="flex gap-1">
-              <p class="text-[#5E6472] text-base font-fontSecondery">By</p>
+              <p class="text-[#5E6472] text-sm md:text-base font-fontSecondery">
+                By
+              </p>
               <a
                 href="#"
-                class="text-[#7755FF] underline text-base font-fontSecondery"
+                class="text-[#7755FF] underline text-sm md:text-base font-fontSecondery"
                 >Mehedi Hasan</a
               >
             </div>
-            <span class="w-[2px] h-[20px] bg-[#5E6472]"></span>
+            <span class="w-[2px] h-[20px] bg-[#5E6472] hidden md:block"></span>
             <div>
-              <p class="font-fontPrimary text-base text-[#5E6472]">
+              <p class="font-fontPrimary text-sm md:text-base text-[#5E6472]">
                 Posted on 27th January 2025
               </p>
             </div>
           </div>
           <div class="flex gap-[10px] items-center">
-            <i class="fa-regular fa-clock text-base text-navBtntextColor"></i>
+            <i
+              class="fa-regular fa-clock text-sm md:text-base text-navBtntextColor"
+            ></i>
 
-            <p class="font-fontSecondery text-base text-[#232323]">
+            <p class="font-fontSecondery text-sm md:text-base text-[#232323]">
               4 min read
             </p>
           </div>
@@ -128,9 +132,9 @@
     <!-- contents  -->
 
     <section
-      class="max-w-[1200px] w-full flex justify-between mx-auto mt-[30px]"
+      class="max-w-[1200px] w-full flex xl:flex-row flex-col justify-between mx-auto mt-[30px]"
     >
-      <div class="max-w-[764px]">
+      <div class="max-w-[764px] px-3 md:px-4 lg:px-0 lg:mx-auto xl:mx-0">
         <p class="font-fontPrimary text-[15px] text-[#323E4F]">
           How many colors should a brand have?
         </p>
@@ -461,7 +465,505 @@
           </ul>
         </div>
       </div>
+      <div
+        class="flex flex-col md:flex-row md:mx-auto xl:mx-0 xl:flex-col gap-[25px] md:mt-10 xl:mt-0"
+      >
+        <div
+          class="max-w-[360px] p-5 flex flex-col gap-5 border-[rgba(161,165,175, .2)] border rounded-[10px] max-h-fit shadow-PopularblogSectionshadow mx-auto md:mx-0"
+        >
+          <p class="text-[19px] font-bold font-fontSecondery text-[#1B2533]">
+            Table of contents:
+          </p>
+          <div class="flex flex-col gap-3">
+            <p class="text-sm font-fontSecondery text-[#2972F1]">
+              1. How Many Colors Should a Brand Have?
+            </p>
+            <p class="text-sm font-fontSecondery text-[#445164]">
+              2. Top 7 Brands & Their Color Secret
+            </p>
+            <p class="text-sm font-fontSecondery text-[#445164]">
+              3. Build Your Brand Color With Us
+            </p>
+          </div>
+        </div>
+
+        <!-- subscribe section start here -->
+        <div class="max-w-[360px] w-full mx-auto md:mx-0">
+          <div
+            class="w-full max-h-fit shadow-PopularblogSectionshadow rounded-[10px]"
+          >
+            <div class="pt-10 px-[36px]">
+              <img
+                src="./assets/blog-images/Subscribe-image.svg"
+                class="max-w-[287px] w-full"
+              />
+            </div>
+            <div class="p-[30px]">
+              <div class="flex flex-col gap-2 max-w-[201px] mx-auto">
+                <div class="flex">
+                  <a
+                    href=""
+                    class="text-2xl font-bold font-fontSecondery text-navBtntextColor"
+                    >Subscribe&nbsp;
+                  </a>
+                  <p
+                    class="text-2xl font-bold font-fontSecondery text-[#232323]"
+                  >
+                    Here !
+                  </p>
+                </div>
+                <p class="text-sm font-fontSecondery text-[#5E6472]">
+                  To get more blog like these
+                </p>
+              </div>
+
+              <div class="mt-[30px] flex flex-col gap-5">
+                <input
+                  type="text"
+                  placeholder="Enter your email..."
+                  class="border-[rgba(161,165,175,.5)] border rounded-[5px] w-full text-sm font-fontSecondery text-[#A1A5AF] py-[14px] pl-[20px] shadow-sm placeholder-[#5E6472] focus:outline-none focus:border-transparent focus:border-[#7755FF] block sm:text-sm focus:ring-1"
+                />
+                <button
+                  class="bg-navBtntextColor text-white text-sm font-medium font-fontSecondery rounded-[10px] w-full py-[10px]"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-[25px] mt-5">
+            <p class="text-sm font-bold font-fontSecondery text-[#4F535C]">
+              Share
+            </p>
+            <ul class="flex gap-[10px] list-none">
+              <li
+                class="w-[38px] cursor-pointer h-[38px] rounded-full bg-white text-black hover:text-white hover:bg-[#232323] flex justify-center items-center"
+              >
+                <a href="#" class="underline"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li
+                class="w-[38px] cursor-pointer h-[38px] rounded-full bg-white text-black hover:text-white hover:bg-[#232323] flex justify-center items-center"
+              >
+                <a href="#" class="underline"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li
+                class="w-[38px] cursor-pointer h-[38px] rounded-full bg-white text-black hover:text-white hover:bg-[#232323] flex justify-center items-center"
+              >
+                <a href="#" class="underline"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li
+                class="w-[38px] cursor-pointer h-[38px] rounded-full bg-white text-black hover:text-white hover:bg-[#232323] flex justify-center items-center"
+              >
+                <a href="#" class="underline"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li
+                class="w-[38px] cursor-pointer h-[38px] rounded-full bg-white text-black hover:text-white hover:bg-[#232323] flex justify-center items-center"
+              >
+                <a href="#" class="underline"
+                  ><i class="fa-brands fa-skype"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- subscribe section end here -->
     </section>
     <!-- contents  -->
+
+    <!-- blogs section -->
+    <section class="w-full mt-[100px]">
+      <div class="max-w-[1200px] mx-auto">
+        <div
+          class="w-full flex lg:flex-row flex-col text-center lg:text-start justify-between items-center lg:items-end"
+        >
+          <div class="max-w-[500px]">
+            <p
+              class="text-xl font-bold font-fontSecondery text-navBtntextColor"
+            >
+              Blogs
+            </p>
+            <h4
+              class="text-[50px] font-bold font-fontPrimary text-[#232323] leading-[72px]"
+            >
+              Read next blog
+            </h4>
+          </div>
+          <div class="max-w-[500px]">
+            <p
+              class="text-[#5E6472] text-lg font-fontSecondery mt-4 lg:mt-0 lg:text-end"
+            >
+              We're your partners in crafting digital experiences that blend
+              innovation with functionality
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex justify-between md:flex-row flex-col gap-5 lg:gap-0 items-center mt-10"
+        >
+          <!-- card one -->
+          <div
+            class="max-w-[350px] md:max-w-[250px] lg:max-w-[325px] xl:max-w-[392px] p-4 border-[#E8E8EA] border rounded-xl"
+          >
+            <figure>
+              <img
+                src="./assets/branding-page-images/Read-next-blog.svg"
+                class="max-w-[360px] w-full h-auto"
+              />
+            </figure>
+            <div class="flex flex-col gap-5 mt-6">
+              <div class="flex flex-col gap-4">
+                <span
+                  class="px-3 py-1 font-fontPlusjakartaSans text-navBtntextColor font-medium rounded-full bg-[#FAF6FF] max-w-[77px] w-full text-center cursor-pointer"
+                  >Venture</span
+                >
+                <p
+                  class="text-xl font-semibold text-[#181A2A] font-fontWorksans"
+                >
+                  The Impact of Technology on the Workplace: How Technology is
+                  Changing
+                </p>
+              </div>
+              <div class="flex items-center gap-5">
+                <p
+                  class="font-medium text-base text-[#5E6472] font-fontWorksans"
+                >
+                  By Ernie Smith
+                </p>
+                <p class="text-base font-fontWorksans text-[#A1A5AF]">
+                  August 20, 2022
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card one -->
+
+          <!-- card two -->
+          <div
+            class="max-w-[350px] md:max-w-[250px] lg:max-w-[325px] xl:max-w-[392px] p-4 border-[#E8E8EA] border rounded-xl"
+          >
+            <figure>
+              <img
+                src="./assets/branding-page-images/Read-next-blog-two.svg"
+                class="max-w-[360px] w-full h-auto"
+              />
+            </figure>
+            <div class="flex flex-col gap-5 mt-6">
+              <div class="flex flex-col gap-4">
+                <span
+                  class="px-3 py-1 font-fontPlusjakartaSans text-navBtntextColor font-medium rounded-full bg-[#FAF6FF] max-w-[77px] w-full text-center cursor-pointer"
+                  >Venture</span
+                >
+                <p
+                  class="text-xl font-semibold text-[#181A2A] font-fontWorksans"
+                >
+                  The Impact of Technology on the Workplace: How Technology is
+                  Changing
+                </p>
+              </div>
+              <div class="flex items-center gap-5">
+                <p
+                  class="font-medium text-base text-[#5E6472] font-fontWorksans"
+                >
+                  By Ernie Smith
+                </p>
+                <p class="text-base font-fontWorksans text-[#A1A5AF]">
+                  August 20, 2022
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card two -->
+
+          <!-- card three -->
+          <div
+            class="max-w-[350px] md:max-w-[250px] lg:max-w-[325px] xl:max-w-[392px] p-4 border-[#E8E8EA] border rounded-xl"
+          >
+            <figure>
+              <img
+                src="./assets/branding-page-images/Read-next-blog-three.svg"
+                class="max-w-[360px] w-full h-auto"
+              />
+            </figure>
+            <div class="flex flex-col gap-5 mt-6">
+              <div class="flex flex-col gap-4">
+                <span
+                  class="px-3 py-1 font-fontPlusjakartaSans text-navBtntextColor font-medium rounded-full bg-[#FAF6FF] max-w-[77px] w-full text-center cursor-pointer"
+                  >Venture</span
+                >
+                <p
+                  class="text-xl font-semibold text-[#181A2A] font-fontWorksans"
+                >
+                  The Impact of Technology on the Workplace: How Technology is
+                  Changing
+                </p>
+              </div>
+              <div class="flex items-center gap-5">
+                <p
+                  class="font-medium text-base text-[#5E6472] font-fontWorksans"
+                >
+                  By Ernie Smith
+                </p>
+                <p class="text-base font-fontWorksans text-[#A1A5AF]">
+                  August 20, 2022
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card three -->
+        </div>
+      </div>
+    </section>
+    <!-- blogs section -->
+
+    <!-- footer start here -->
+
+    <footer
+      class="xl:px-[125px] lg:px-[50px] pt-[125px] pb-[40px] bg-[#232323] rounded-tl-[26px] rounded-tr-[26px] z-0 relative flex flex-col justify-center items-center mt-[175px]"
+    >
+      <div
+        class="max-w-[1110px] w-full h-auto bg-[url('/assets/nav-and-hero-svg/connect-us-bg.svg')] absolute z-10 flex justify-between items-center lg:px-[100px] md:px-[50px] md:py-[20px] px-[20px] py-[20px] lg:py-[50px] rounded-[10px] lg:top-[-75px] top-0 left-[50%] -translate-x-[50%]"
+      >
+        <h6
+          class="text-lg md:text-2xl lg:text-3xl font-bold font-fontSecondery text-white"
+        >
+          Lets Connect With Us
+        </h6>
+        <button
+          class="hover:bg-[#7755FF] hover:text-white hover:duration-100 ease-in md:px-[20px] px-[8px] py-[6px] md:py-[12px] text-sm md:text-xl font-semibold font-fontSecondery text-[#7755FF] bg-white rounded-[10px]"
+        >
+          Contact Us<i class="fa-solid fa-arrow-right pl-[10px]"></i>
+        </button>
+      </div>
+      <div
+        class="xl:max-w-[1200px] lg:max-w-[1000px] md:max-w-[750px] max-w-[350px] w-full h-auto flex lg:flex-row flex-col justify-between items-center border-b-[1px] border-[rgba(255,255,255,.1)] pb-[27px]"
+      >
+        <div
+          class="flex flex-col gap-6 max-w-[314px] h-auto text-center lg:text-start"
+        >
+          <div class="flex flex-col gap-5">
+            <figure>
+              <a href="#" class="no-underline"
+                ><img
+                  src="./assets/nav-and-hero-svg/footer-logo.svg "
+                  class="max-w-[139px] h-auto mx-auto lg:mx-0"
+              /></a>
+            </figure>
+            <p class="font-fontSecondery text-sm text-[#FAF6FF]">
+              Connect with your site visitor’s on a personal level and make sure
+              that your site becomes a regular stop in their daily browsing.
+            </p>
+          </div>
+          <div class="flex flex-col items-center lg:items-start gap-1">
+            <div class="flex gap-[10px]">
+              <figure>
+                <img
+                  src="./assets/nav-and-hero-svg/footer-location-icon.svg"
+                  class="max-w-[18px] h-auto"
+                />
+              </figure>
+              <p class="font-fontSecondery text-sm text-white">Office</p>
+            </div>
+            <p class="text-sm font-fontSecondery text-[#FAF6FF]">
+              10th floor/ 1002- Peninsula Park, Off Link Rd, A-4, Veera Desai
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-2 md:grid-cols-3 xl:gap-x-[144px] md:gap-x-[80px] lg:gap-x-[30px] mt-8 xl:mt-0 mx-auto xl:mx-0"
+        >
+          <div>
+            <h6
+              class="font-fontSecondery font-semibold text-xl text-white leading-[1.30em]"
+            >
+              Quick Links
+            </h6>
+            <div class="h-[2px] w-[47px] bg-[#FFC310] mt-4 mb-4"></div>
+            <a href="#" class="no-underline"
+              ><p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                About Company
+              </p></a
+            >
+            <a href="#" class="no-underline"
+              ><p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                Works
+              </p></a
+            >
+            <a href="#" class="no-underline">
+              <p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                Blog & News
+              </p></a
+            >
+            <a href="#" class="no-underline">
+              <p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                Privacy Policy
+              </p></a
+            >
+            <a href="#" class="no-underline">
+              <p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                FAQ’s
+              </p></a
+            >
+            <a href="#" class="no-underline">
+              <p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                Contact us
+              </p></a
+            >
+          </div>
+          <div>
+            <h6
+              class="font-fontSecondery font-semibold text-xl text-white leading-[1.30em]"
+            >
+              Services
+            </h6>
+            <div class="h-[2px] w-[47px] bg-[#FFC310] mt-4 mb-4"></div>
+            <a href="#" class="no-underline"
+              ><p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                Product Design
+              </p></a
+            >
+            <a href="#" class="no-underline"
+              ><p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                Digital Marketing
+              </p></a
+            >
+            <a href="#" class="no-underline"
+              ><p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                UX/UI Strategy
+              </p></a
+            >
+            <a href="#" class="no-underline">
+              <p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                Software Development
+              </p></a
+            >
+            <a href="#" class="no-underline"
+              ><p
+                class="hover:text-[#7755FF] hover:duration-100 ease-in font-fontSecondery text-[#FAF6FF] leading-[2.66em] text-sm"
+              >
+                UX Audit
+              </p></a
+            >
+          </div>
+          <div class="flex flex-col gap-4">
+            <div>
+              <h6
+                class="font-fontSecondery font-semibold text-xl text-white leading-[1.30em]"
+              >
+                Contact Us
+              </h6>
+              <div class="h-[2px] w-[47px] bg-[#FFC310] mt-4 mb-4"></div>
+            </div>
+            <div class="flex flex-col gap-[5px]">
+              <div class="flex gap-[10px] items-center">
+                <a href="#" class="no-underline">
+                  <img
+                    src="./assets/nav-and-hero-svg/footer-email-icon.svg"
+                    class="max-w-[18px] h-auto"
+                /></a>
+                <a href="#" class="no-underline"
+                  ><p
+                    class="font-fontSecondery text-white leading-[1.70em] text-sm"
+                  >
+                    Email
+                  </p></a
+                >
+              </div>
+              <a href="#" class="no-underline"
+                ><p
+                  class="hover:text-[#7755FF] hover:duration-100 ease-in text-sm text-[rgba(250,246,255,.8)] font-fontSecondery leading-[1.70em]"
+                >
+                  hello@digicampo.design
+                </p></a
+              >
+            </div>
+            <div class="flex flex-col gap-[5px]">
+              <div class="flex gap-[10px] items-center">
+                <a href="#" class="no-underline"
+                  ><img
+                    src="./assets/nav-and-hero-svg/footer-phone-icon.svg"
+                    class="max-w-[18px] h-auto"
+                /></a>
+                <a href="#" class="no-underline"
+                  ><p
+                    class="font-fontSecondery text-white leading-[1.70em] text-sm"
+                  >
+                    Phone
+                  </p></a
+                >
+              </div>
+              <a href="#" class="no-underline">
+                <p
+                  class="hover:text-[#7755FF] hover:duration-100 ease-in text-sm text-[rgba(250,246,255,.8)] font-fontSecondery leading-[1.70em]"
+                >
+                  1234567890
+                </p></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-between max-w-[1200px] h-auto w-full mt-[34px] px-2 md:px-5 lg:px-0"
+      >
+        <p
+          class="font-fontSecondery text-[#FAF6FF] text-xs md:text-sm leading-[1.70em] opacity-80"
+        >
+          © 2024 Digicampo, All Rights Reserved
+        </p>
+        <ul class="flex list-none gap-[21px] text-sm md:text-xl text-[#DDDDDF]">
+          <li class="hover:text-[#7755FF] hover:duration-100 ease-in">
+            <a href="#" class="no-underline"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li class="hover:text-[#7755FF] hover:duration-100 ease-in">
+            <a href="#" class="no-underline"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li class="hover:text-[#7755FF] hover:duration-100 ease-in">
+            <a href="#" class="no-underline"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="hover:text-[#7755FF] hover:duration-100 ease-in">
+            <a href="#" class="no-underline"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- footer end here -->
   </body>
 </html>
